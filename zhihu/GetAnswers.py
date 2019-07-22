@@ -2,8 +2,6 @@ import requests
 from json import loads
 from urllib.parse import urlencode
 
-
-
 class getZhihuAnswers(object):
     
     def __init__(self, questionID, page):
